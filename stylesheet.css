@@ -1,0 +1,82 @@
+body
+{
+	background-color:#4E5252;
+	color:#996892;
+	font-family:"Helvetica",Arial;
+	margin:0px;
+	text-shadow:0px 0px 10px rgba(0,0,0,1);
+	font-weight:bold;
+	overflow: hidden;
+}
+h1
+{
+	color:#E64D38;
+}
+#contenido
+{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+#miForm input
+{
+	width:700px;
+	font-size:30px;
+	border:none;
+	border-radius:10px;
+	padding:10px;
+	outline:none;
+
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+#miForm input:focus
+{
+	font-size:38px;
+}
+#miCanvas
+{
+	position: absolute;
+	top:0px;
+	left:0px;
+	pointer-events:none;
+}
+#donacion
+{
+	border:none;
+	background-color:none;
+	font-size:14px;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.8);
+	cursor: pointer;
+}
+#social_btns a
+{
+	text-decoration:none;
+}
+#social_btns img
+{
+	border:none;
+}
+.twitter-share-button,#donacion
+{
+	vertical-align: middle;
+}
+#answer
+{
+	display: none;
+	color:#E64D38;
+}
+#aRadio
+{
+	color:#E64D38;
+	font-size:24px;
+}
+#publicidad
+{
+	position: absolute;
+	z-index:-2;
+	top:0px;
+	right:200px;
+}
